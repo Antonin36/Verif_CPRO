@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Vérification Carte Pro</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Logo" class="logo">
+        <form id="urlForm">
+            <label for="numCPRO">Numéro de Carte Professionnelle:</label>
+            <input type="text" id="numCPRO" name="numCPRO" required>
+            
+            <label for="DNComplete">Date de Naissance Complète :</label>
+            <input type="text" id="DNComplete" name="DNComplete" required>
+            
+            <button type="submit">Vérifier la Carte Pro</button>
+        </form>
+
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
